@@ -8,10 +8,10 @@ public class DivideTest {
 
 	@Test
 	public void test() {
-		Divide div = new Divide();
-		assertEquals(4.5, div.divide(9,2), 0.0001);
-		assertEquals(2, div.divide(4,2), 0.0001);
-		assertEquals(-6.2, div.divide(24.8, -4), 0.0001);
+		Calculator calc = new Calculator();
+		assertEquals(4.5, calc.divide(9,2), 0.0001);
+		assertEquals(2, calc.divide(4,2), 0.0001);
+		assertEquals(-6.2, calc.divide(24.8, -4), 0.0001);
 	}
 
 }
