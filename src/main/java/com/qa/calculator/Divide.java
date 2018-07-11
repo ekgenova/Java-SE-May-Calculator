@@ -1,8 +1,6 @@
 package com.qa.calculator;
 
-public class Divide {
+public interface Divide {
 
-	public double divide(double a, double b) {
-		return a/b;
-	}
+	public double divide(double a, double b);
 }

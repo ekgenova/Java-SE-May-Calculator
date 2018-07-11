@@ -1,9 +1,7 @@
 package com.qa.calculator;
 
-public class Multiply {
+public interface Multiply {
 	
-	public double multiply(double a, double b) {
-		return a*b;
-	}
+	public double multiply(double a, double b);
 
 }
